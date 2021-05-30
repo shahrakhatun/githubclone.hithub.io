@@ -1,0 +1,58 @@
+
+/* main container */
+.main-container{
+    width:50%;
+    margin:4vw;
+}
+
+
+
+/* tab container */
+.tab-container{
+    display:flex;
+    width:50%;
+    justify-content:space-between;
+    margin:2vw;
+}
+
+.btn{
+    border:1px solid blue;
+    color:blue;
+    background-color:white;
+    font-size:20px;
+    transition:0.2s;
+    cursor:pointer;
+    padding:10px;
+}
+
+.btn:hover{
+    color:white;
+    background-color:blue;
+}
+
+
+
+/* text styling */
+
+.para-container{
+    position:relative;
+}
+
+
+
+.para{
+    margin:2vw;
+    width:60%;
+    border:1px solid blue;
+    padding:10px;
+    font-size:17px;
+    background-color:#5252f1f5;
+    color:white;
+    font-family:arial;
+    letter-spacing:1px;
+    position:absolute;
+}
+
+.one{
+    z-index:1;
+}
